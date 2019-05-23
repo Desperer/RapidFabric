@@ -6,14 +6,21 @@
 <Server
   id="rapid-fabric" 
   name="Rapid Fabric - A Cutting Edge Fabric Modpack"
-  newsUrl="http://files.mcupdater.com/example/SamplePack.xml"
+  newsUrl="https://github.com/Desperer/RapidFabric"
   version="1.14.1"
-  mainClass="net.minecraft.launchwrapper.Launch"
-  revision="1"
   autoConnect="false">
   
 	<Import url="https://fabricmc.net/download/mcupdater?yarn=1.14.1%2Bbuild.10&amp;loader=0.4.7%2Bbuild.147">fabric</Import>
  
+	<Module name="Fabric Loader" id="fabric-loader-1.14.1+build.10-0.4.7+build.147" depends="" side="BOTH"></Module>
+	<Module name="Yarn" id="yarn-1.14.1+build.10" depends="" side="BOTH"></Module>
+	<Module name="Tiny Mappings Parser" id="tiny-mappings-parser-0.1.1.8" depends="" side="BOTH"></Module>
+	<Module name="Sponge Mixin" id="sponge-mixin-0.7.11.30" depends="" side="BOTH"></Module>
+	<Module name="Tiny Remapper" id="tiny-remapper-0.1.0.33" depends="" side="BOTH"></Module>
+	<Module name="sat4j" id="fabric-loader-sat4j-2.3.5.4" depends="" side="BOTH"></Module>
+	<Module name="jimfs" id="jimfs-1.1" depends="" side="BOTH"></Module>
+	<Module name="asm" id="asm-7.1" depends="" side="BOTH"></Module>
+	<Module name="TMP" id="tiny-mappings-parser-0.1.1.8" depends="" side="BOTH"></Module>
  
 	<Module name="Mod Menu" id="ModMenu" depends="" side="BOTH">
     <URL >https://minecraft.curseforge.com/projects/modmenu/files/2710904</URL>
