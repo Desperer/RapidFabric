@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="fastpack" abstract="false" name="FastPack Instance" newsUrl="about:blank" version="1.14.1" generateList="true" autoConnect="true" revision="1" mainClass="net.fabricmc.loader.launch.knot.KnotClient" launcherType="Vanilla">
 		<Import url="https://fabricmc.net/download/mcupdater/?yarn=latest&amp;loader=.4.8.154">fabric</Import>
